@@ -1,0 +1,6 @@
+export { default as Nav } from './Navbar'
+export { default as Header } from './Header'
+export { default as MovieList } from './MovieList'
+export { default as MovieItem } from './MovieItem'
+export { default as MovieModal } from './MovieModal'
+export { default as Footer } from './Footer'

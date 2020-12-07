@@ -23,3 +23,7 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# sass files
+/src/styles/_variables.scss
+/src/styles/style.scss
