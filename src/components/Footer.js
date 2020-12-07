@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <Container className="footer" fluid={true}>
             <p>&copy; 2020 Hally. All Rights Reserved. Powered by&nbsp;
-                <a href="https://www.vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>.</p>
+                <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.</p>
         </Container>
     )
 }

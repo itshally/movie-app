@@ -1,7 +1,6 @@
 import React from 'react'
 import {Modal, Container, ResponsiveEmbed} from 'react-bootstrap'
 const MovieModal = (props) => {
-    console.log(props)
     const {backdrop_path} = props.item
     const {tagline} = props.detail
     const base_url = "https://image.tmdb.org/t/p/w500/";
