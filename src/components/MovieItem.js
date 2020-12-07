@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import moment from 'moment'
-import env from 'react-dotenv'
 import axios from 'axios'
 import {
     Col,
@@ -36,7 +35,7 @@ const MovieItem = ({item}) => {
 
     useEffect(() => {
         const fetchData = () => {
-            const key = env.REACT_APP_API_KEY
+            const key =  process.env.REACT_APP_API_KEY
             const getMovieTrailer = axios.get(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=${key}`)
             const getMovieDetail = axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${key}&language=en-US`)
 
