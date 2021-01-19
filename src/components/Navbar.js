@@ -8,16 +8,16 @@ const Navs = () => {
     return (
         <React.Fragment>
             <Navbar bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="/">
                     <img
                         src={logo}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
                         alt="logo"
-                        style={{marginRight: '5px', borderRadius: '4px'}}
+                        style={{marginRight: '10px', borderRadius: '5px', backgroundColor: 'white', padding: '3.5px'}}
                     />
-                    Trending Movies
+                    Top Movies Today
                 </Navbar.Brand>
                 <Navbar.Text>
                     {moment(today).format('MMMM DD YYYY')}

@@ -10,7 +10,7 @@ const Header = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                     typewriter
-                        .typeString('What are the trending movies today?')
+                        .typeString('What are the top movies today?')
                         .stop()
                         .start()
                 }}/>
